@@ -1,0 +1,9 @@
+Para listar todos los repositorios remotos configurados, use git remote .
+
+Muestra el nombre corto (alias) de cada identificador remoto que ha configurado.
+
+$ git remote
+premium
+premiumPro
+origin
+Para mostrar información más detallada, se puede utilizar el indicador --verbose o -v . La salida incluirá la URL y el tipo de control remoto ( push o pull ):
